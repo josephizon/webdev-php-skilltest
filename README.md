@@ -13,7 +13,7 @@
 1. To test out the code locally, you may opt to run it locally via hosting the server using [XAMPP](https://www.apachefriends.org/download.html).  
 2. After downloading XAMPP, open the XAMPP Control Panel and run the _Apache_ and _MySQL_ services.
 3. From there, you can add these files into a folder inside the _htdocs_ folder where XAMPP is installed.
-4. To run the website, go to your browser and type in _localhost/[name_of_folder]_, then it will load up the website.
+4. To run the website, go to your browser and type in _localhost/[name_of_folder]_, then it will load up the website. *NOTE:* To use the homepage, make sure to change the href link in _header.php_ to the name of your folder. 
 5. For a more detailed guide, you can follow these steps [here](https://www.simplilearn.com/tutorials/php-tutorial/php-using-xampp).  
  
 ## 📷 Sample Screenshots
