@@ -16,3 +16,10 @@
 4. To run the website, go to your browser and type in _localhost/[name_of_folder]_, then it will load up the website.
 5. For a more detailed guide, you can follow these steps [here](https://www.simplilearn.com/tutorials/php-tutorial/php-using-xampp).  
  
+## 📷 Sample Screenshots
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/131bf168-385f-44f9-93d5-9d8c22973904" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/43da20be-c509-4930-81a4-0c3aba47ebe0" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ce3f26fb-56c0-4907-b12d-f1963e3501e9" />
