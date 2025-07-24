@@ -1,0 +1,302 @@
+/* import from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&family=Sora:wght@100..800&display=swap');
+
+
+/* body reset and default styling*/
+body {
+    font-family: Sora, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    vertical-align: middle;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navigation bar */
+.topnav {
+    font-family: Oswald, sans-serif;
+    background-color: #333;
+    overflow: hidden;
+    height: 50px;
+    display: flex;
+    text-transform: uppercase;
+}
+
+.topnav p {
+    height: 100%;
+    width: 10rem;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 15px;  
+    font-size: 17px;
+    margin: 0;
+    border-radius: 16px 16px 0 0;
+}
+
+.topnav a {
+  height: 100%;
+  width: 10rem;
+  color: black;
+  background-color: #e0e0e0;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px;  
+  font-size: 17px;
+  border-radius: 16px 16px 0 0;
+}
+
+
+.topnav a:hover {
+  background-color: #FFDF00;
+  color: black;
+  text-decoration: none;
+}
+
+
+/* general text styles */
+h1 {
+    font-family: Oswald, sans-serif;
+    font-size: 3rem;
+    color: #FFDF00;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform:uppercase;
+}
+
+/* general container/card template for content  */
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background: white;
+    padding:20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+
+.container a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+.container a:hover {
+    color: #FFDF00;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.container div {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto; 
+    width: fit-content;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
+
+/* table formatting that starts in Exercise 5 */
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid black;
+}
+
+.highlight {
+    background-color: rgb(183, 246, 183);
+    text-transform: uppercase;
+}
+
+.sum {
+    font-weight: bold;
+}
+
+.stack {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.stack div {
+        width: 10rem;
+        padding: 10px;
+        margin: 5px 0;
+        background-color: #FFDF00;
+        border: 1px solid black;
+        text-align: center;
+}
+
+/* button styling based on css button from below website */
+/* buttons for push and pop but used for other buttons too */
+/* https://getcssscan.com/css-buttons-examples */
+
+.button-push {
+  appearance: button;
+  background-color: #1fc416;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 10rem; 
+}
+
+.button-push:after {
+  background-clip: padding-box;
+  background-color: #2eeb1d;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-push,
+.button-push:focus {
+  user-select: auto;
+}
+
+.button-push:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-push:disabled {
+  cursor: auto;
+}
+
+.button-push:active {
+  border-width: 4px 0 0;
+  background: none;
+}
+
+.button-pop {
+  appearance: button;
+  background-color: #9d1818;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 10rem; 
+}
+
+.button-pop:after {
+  background-clip: padding-box;
+  background-color: #f61c1c;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-pop,
+.button-pop:focus {
+  user-select: auto;
+}
+
+.button-pop:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-pop:disabled {
+  cursor: auto;
+}
+
+.button-pop:active {
+  border-width: 4px 0 0;
+  background: none;
+}
+
+/* general input box styling*/
+input{
+    box-shadow: inset #abacaf 0 0 0 2px;
+    border: 0;
+    background: rgba(0, 0, 0, 0);
+    appearance: none;
+    position: relative;
+    border-radius: 3px;
+    padding: 9px 12px;
+    line-height: 1.4;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all .2s ease;     
+    margin: 0 10px;          
+}
+
+input:hover{
+    box-shadow: 0 0 0 0 #fff inset, #2eeb1d 0 0 0 2px;
+}
+
+input:focus{
+    background: #fff;
+    outline: 0;
+    box-shadow: 0 0 0 0 #fff inset, #2eeb1d 0 0 0 3px;
+}
+
