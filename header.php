@@ -2,7 +2,8 @@
   echo '
     <div class="topnav">
         <p> Joseph Raymund F. Izon </p>
-        <a href="/eversun">Home</a>
+        <!-- change phpskilltest to name of your folder to use home navigation -->
+        <a href="/phpskilltest">Home</a>
     </div>
   ';
 ?>
